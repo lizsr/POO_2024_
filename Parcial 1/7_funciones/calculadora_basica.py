@@ -25,9 +25,9 @@
 #         print("Gracias por utilizar el sistema ...")
 #         opcion=False
 
-import os
+#import os
 
-from varias_funciones import *
+#from varias_funciones import *
 
 # def solicitarNumeros():
 #     global n1,n2
@@ -49,19 +49,19 @@ from varias_funciones import *
 #     input()    
             
 
-opcion=True
-while opcion:
-    os.system("clear")
-    print("\n\t..::: CALCULADORA BÁSICA :::... \n 1.- Suma \n 2.- Resta \n 3.-Multiplicacion \n 4.- División \n 5.- SALIR ")
-    opcion=input("\t Elige una opción: ").upper()
-    if opcion!="5":
-     n1,n2=solicitarNumeros()
-     print(calculadora(n1,n2,opcion))
-     espereTecla()
+#opcion=True
+#while opcion:
+    #os.system("clear")
+    #print("\n\t..::: CALCULADORA BÁSICA :::... \n 1.- Suma \n 2.- Resta \n 3.-Multiplicacion \n 4.- División \n 5.- SALIR ")
+    #opcion=input("\t Elige una opción: ").upper()
+    #if opcion!="5":
+     #n1,n2=solicitarNumeros()
+    # print(calculadora(n1,n2,opcion))
+     #espereTecla()
 
-    else:
-      opcion=False
-      print("Gracias por utilizar el sistema ...")  
+    #else:
+      #opcion=False
+      #print("Gracias por utilizar el sistema ...")  
 
 
 
